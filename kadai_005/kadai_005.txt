@@ -1,0 +1,15 @@
+PS C:\Users\mkami\OneDrive\デスクトップ\作業用\Work\02_プログラミング> git init git_challenge
+Initialized empty Git repository in C:/Users/mkami/OneDrive/デスクトップ/作業用/Work/02_プログラミング/git_challenge/.git/
+PS C:\Users\mkami\OneDrive\デスクトップ\作業用\Work\02_プログラミング> cd C:\Users\mkami\OneDrive\デスクトップ\作業用\Work\02_プログラミング\git_challenge
+PS C:\Users\mkami\OneDrive\デスクトップ\作業用\Work\02_プログラミング\git_challenge> git add hello_world.txt
+PS C:\Users\mkami\OneDrive\デスクトップ\作業用\Work\02_プログラミング\git_challenge> git commit -m "1回目のコミット"
+[main (root-commit) d0c8350] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\mkami\OneDrive\デスクトップ\作業用\Work\02_プログラミング\git_challenge> git add hello_world.txt        
+PS C:\Users\mkami\OneDrive\デスクトップ\作業用\Work\02_プログラミング\git_challenge> git commit -m "2回目のコミット"
+[main 0bb430e] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\mkami\OneDrive\デスクトップ\作業用\Work\02_プログラミング\git_challenge> git log --oneline
+0bb430e (HEAD -> main) 2回目のコミット
+d0c8350 1回目のコミット
